@@ -146,5 +146,5 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
 - Handling an edge case
     - As it stands, our app breaks if we hit Deposit or Withdraw on an empty form. Or if we put letters in there! How can we update our functionality to avoid this problem?
     - **hint:** Don't assume NaN behaves as you might expect :)
-- Refactor the common code out of handleWithdrawlClick and handleDepositClick into a helper function
+- Refactor the common code out of handleWithdrawlClick and handleDepositClick into a helper function or two.
 - Create a Transfer form that can transfer funds from Checking to Savings, or Savings to Checking! 
