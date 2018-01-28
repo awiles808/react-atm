@@ -105,10 +105,6 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
       }
     ```
 
-     PS - the amount entered in the text field will initially be a string, so you'll need to convert that to a number
-
-
-
     </details>
 
 
