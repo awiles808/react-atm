@@ -65,7 +65,7 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
 <img src="https://media.giphy.com/media/26xBMuHu0ZFngH7Ta/giphy.gif">
 
 
-4. Set a `ref` on the text field, which is a callback function to save a reference to that text field in our `Account` object. This is the standard way we can access the data in the field later when we want to know what values to add/subtract from our account.
+4. Set a `ref` property on the text field, which is a callback function to save a reference to that text field in our `Account` object. This is the standard way we can access the data in the field later when we want to know what values to add/subtract from our account.
 
     <details>
     <summary>Hint:</summary>
