@@ -93,7 +93,7 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
         // It is good practice to still prevent default behavior
         e.preventDefault();
         // set a local variable to the amount entered in the text box.
-        let amount = this.inputBox.value;
+        let amount = parseInt(this.inputBox.value);
         // set a local variable to the new balance based off of the original balance + amount
         let newBalance = this.state.balance + amount;
         // set the balance to the newBalance using the setState method (necessary)
